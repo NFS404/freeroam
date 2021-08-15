@@ -1,0 +1,13 @@
+
+[FMS]
+  AllowedOrigin = "127.0.0.1"
+  ListenAddress = "127.0.0.1:6996"
+  UpdateInterval = 0
+
+[TLS]
+  EnforceTLS = false
+  PrivateKeyFile = ""
+  PublicKeyFile = ""
+
+[UDP]
+  ListenAddress = ":9999"
